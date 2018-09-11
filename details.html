@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width =device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = 0" />
+  <title>电影详情</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    #app>header{
+      box-sizing: border-box;
+      width: 100%;
+      height: 2rem;
+      padding: .4rem .5rem;
+      border-bottom: 1px solid #f3f3f3;
+    }
+    #app>header .header_title{
+      float: left;
+      color: #00b600;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    #app>header .header_search{
+      float: right;
+      color: #00b600;
+      font-size: .8rem;
+      font-weight: bold;
+    }
+    #app>.page{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 1rem .5rem 0;
+    }
+    #app>.page>.title{
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    #app>.page>.info{
+      width: 100%;
+      height: 7.6rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid #f3f3f3;
+    }
+    #app>.page>.info>.right{
+      float: right;
+      width: 35%;
+    }
+    #app>.page>.info>.right>a{
+      display: block;
+      width: 100%;
+    }
+    #app>.page>.info>.right>a>img{
+      display: block;
+      width: 100%;
+      height: 7.6rem
+    }
+    #app>.page>.info>.left{
+      float: left;
+      width: 56%;
+    }
+    #app>.page>.info>.left>p{
+      font-size: .7rem;
+      color: #494949;
+    }
+    #app>.page>.info>.left>.rating{
+      margin: .2rem 0 .8rem 0;
+    }
+    #app>.page>.info>.left>.meta{
+      font-size: .6rem;
+      line-height: 1.1rem;
+    }
+    #app>.page>.info>.left>.rating>span{
+      color: lightgreen;
+      margin: .2rem 0 .8rem 0;
+    }
+    #app>.page>.info>.left>.rating>.ratingNum{
+      margin-left: .5rem;
+      color: #aaa;
+    }
+
+    h2 {
+      color: #aaa;
+      margin: 0 0 15px;
+      font-size: 15px;
+    }
+    .intro{
+      margin-top: .7rem;
+    }
+    .intro>h2{
+      color: #aaa;
+      font-weight: 400;
+
+    }
+    .intro>.bd{
+      font-size: .6rem;
+      line-height: .8rem;
+      color: #494949;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1 class="header_title">硅谷电影</h1>
+      <p class="header_search">搜索</p>
+    </header>
+    <div class="page">
+      <h1 class="title">湮灭</h1>
+      <section class="info">
+        <div class="left">
+          <p class="rating">
+            <span>评分:</span>
+            <strong>7.3</strong>
+            <span class="ratingNum">52996人评价</span>
+          </p>
+          <p class="meta">
+            114分钟(中国大陆) / 剧情 / 科幻 / 惊悚 / 亚历克斯·嘉兰(导演) / 娜塔莉·波特曼 / 詹妮弗·杰森·李 / 吉娜·罗德里格兹 / 2018-04-13(中国大陆) 上映
+          </p>
+        </div>
+        <div class="right">
+          <a href="javascript:">
+            <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2516914607.webp" alt="湮灭">
+          </a>
+        </div>
+      </section>
+      <section class="intro">
+        <h2>湮灭的剧情简介</h2>
+        <div class="bd">
+          <p>莉娜（娜塔莉·波特曼 Natalie Portman 饰）是一名生物学家，一年前，她的丈夫凯恩（奥斯卡·伊萨克 Oscar Isaac 饰）在参加一项秘密任务后神秘失踪，这一年间，莉娜一直生活在悲伤之中。某天，失忆的凯恩忽然出现在了莉娜的面前，之后晕倒被送入了医院。在那里，莉娜遇见了文崔斯博士（詹妮弗·杰森·李 Jennifer Jason Leigh 饰）。<br>博士告诉莉娜，凯恩被派往了一块被“闪光”笼罩的未知区域，三年间，无数的队伍被派往区域内进行勘探，只有凯恩一人活着回来了。不仅如此，“闪光”正在不断的扩大。为了查明事情的真相，莉娜自愿加入了下一批被派遣的队伍之中，和她一同前往的，除了文崔斯博士外，还有安雅（吉娜·罗德里格兹 Gina Rodriguez 饰）和乔茜（泰莎·汤普森 Tessa Thompson 饰）。</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/rem.js"></script>
+</body>
+</html>
